@@ -1,0 +1,19 @@
+.First_tier__tag{
+  font-family: 'Noto Sans KR', sans-serif;
+  transform: translate(30px, 200px);
+  font-size: 25px;
+}
+.First_tier_characters{
+  display: flex;
+  width: 800px;
+  transform: translate(10px, 230px);
+  overflow-x: scroll;
+}
+.kafka, .luocha, .bailu, .blade{
+  padding: 0px 10px;
+  height: 150px;
+  width: 250px;
+}
+.Recommendation_degree{
+  transform: translateX(10px);
+}

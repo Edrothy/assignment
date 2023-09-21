@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  font-family: "Open Sans", sans-serif;
+}
+body > div {
+  height: 100vh;
+  width: 400px;
+  border: 4px solid #00c6ad;
+}
+.playlist {
+  position: relative;
+}
+.playlist__tag {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+  font-size: 25px;
+}
+.playlist__tag:first-child {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  top: 35px;
+  left: 33px;
+}
+.playlist__title {
+  display: flex;
+  justify-content: center;
+}
+.playlist__img {
+  background-color: #ffbd11;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  border-radius: 20%;
+  transform: translate(-25px, 45px);
+}
+.playlist__titlemusic {
+  position: relative;
+  top: 50px;
+  left: -15px;
+}
+.playlist__customtitle {
+  font-size: 40px;
+  font-weight: 900;
+}
+.playlist__titlemusicdescription {
+  position: relative;
+  top: 100px;
+}
+.playlist__interaction {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 55px;
+}
+.play__button {
+  font-size: 25px;
+  font-weight: 800;
+  width: 160px;
+  height: 65px;
+  border-radius: 24%;
+  border-width: 2px 2px 6px 2px;
+  position: relative;
+  top: 20px;
+  left: 10px;
+}
+.heart__button,
+.plus__button {
+  border-radius: 100%;
+  border-width: 2px 2px 6px 2px;
+  width: 65px;
+  height: 65px;
+  position: relative;
+  top: 20px;
+}
+.plus__button {
+  position: relative;
+  left: -10px;
+}
+.text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+.color {
+  width: 70px;
+  height: 70px;
+}
+.tomato {
+  background-color: #f85a2a;
+  position: absolute;
+}
+.pink {
+  background-color: #ff89bb;
+  position: absolute;
+}
+.blue {
+  background-color: #1847e5;
+  position: absolute;
+}
+.teal {
+  background-color: #00c6ad;
+  position: absolute;
+}
+.playlist__musicname {
+  font-size: 25px;
+  font-weight: 900;
+  position: absolute;
+  transform: translate(0, 30px);
+}
+.playlist__musician {
+  position: absolute;
+  transform: translate(0, 50px);
+}
+.color {
+  display: flex;
+  align-items: center;
+}
+.music {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  transform: translate(50%, 50%);
+}

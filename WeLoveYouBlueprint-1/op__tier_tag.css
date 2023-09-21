@@ -1,0 +1,57 @@
+.op_tier__tag{
+  transform: translate(30px, 150px);
+  font-size: 25px;
+  width: 200px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.lunae{
+  height: 250px;
+  width: 200px;
+  border-radius: 15px;
+}
+.Op_tier--character{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transform: translate(30px, 170px);
+  width: 400px;
+  height:250px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+.name{
+  font-size: 30px;
+  padding: 20px 0 10px 0;
+}
+.attribute{
+  opacity: 0.5;
+  padding: 10px 0;
+}
+.comment__btn, .story__btn{
+  height: 40px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+.comment__btn{
+  margin-right: 5px;
+  cursor: url(cursor2.png) 30 30, auto;
+}
+.story__btn{
+  cursor: url(cursor4.png) 30 30, auto;
+}
+.bookmark__btn, .like__btn{
+  height: 40px;
+  width: 40px;
+  margin: 10px 0;
+  border-radius: 100%;
+  border: none;
+    margin-right: 10px;
+  background-color: #FFCE33;
+}
+.bookmark__btn{
+  cursor: url(cursor3.png) 30 30, auto;
+}
+.like__btn{
+  cursor: url(cursor1.png) 30 30, auto;
+}
